@@ -3,5 +3,25 @@ h1 {
 }
 
 #first {
+    color:red;
+}
+
+#second {
+    color:orange;
+}
+
+#third {
+    color:yellow;
+}
+
+#fourth {
+    color:green;
+}
+
+#fifth {
     color:blue;
+}
+
+#sixth {
+    color:purple;
 }
