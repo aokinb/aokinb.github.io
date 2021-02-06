@@ -43,12 +43,12 @@ function changeTitle() {
     selectedElement.innerText = "DIGS"
 }
 
-function changeTitle2() {
-    let selectedElement = document.getElementById("programCard2");
+function currentMinute() {
+    let selectedElement = document.getElementById("minute");
     selectedElement.innerText = "Current Minute: ".concat(new Date().toLocaleTimeString("en-US").split(":")[1]); //.split(/:| /);
 }
 
 function disappear() {
-    let selectedElement = document.getElementById("first");
+    let selectedElement = document.getElementById("disappear");
     selectedElement.style.display = "none";
 }
