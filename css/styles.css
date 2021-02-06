@@ -2,26 +2,32 @@ h1 {
     color:maroon;
 }
 
-#first {
-    color:red;
+#container {
+	width: 1200px;
+	background: White;
+	text-align: left;
+	margin: 0 auto;
+}
+	
+#content {
+ 	padding: 30px 30px 50px 30px;
+ 	width: 350px;
+ 	height: 500px;
+ 	float: left;
+ 	margin: 5px; 
+ 	border: 1px solid #002E5C;
+ 	text-align: left;
 }
 
-#second {
-    color:orange;
+.responsive-image {  
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	} 
+
+div.centered {
+    text-align: center;
 }
 
-#third {
-    color:yellow;
-}
 
-#fourth {
-    color:green;
-}
 
-#fifth {
-    color:blue;
-}
-
-#sixth {
-    color:purple;
-}
