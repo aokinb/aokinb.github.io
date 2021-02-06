@@ -14,9 +14,10 @@
 
   </head>
   <body>
-    <ul class="nav nav-pills">
+    <div id="navbar">
+        <ul class="nav nav-pills">
         <li class="nav-item">
-            <a href="index.html" class="nav-link active">HOME</a>
+            <a href="index.html" class="nav-link active">Home</a>
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Travel</a>
@@ -32,65 +33,73 @@
         <li class="nav-item">
             <a href="About.html" class="nav-link">About</a>
         </li>
-    </ul>
+        <li class="nav-item">
+            <a href="DigitalChalkboard.html" class="nav-link">Digital Chalkboard Tasks</a>
+        </li>
+        </ul>
+    </div>
 
-    <h1>
+    <div id="container" class="container-md">
+
+        <div id="content" class="container-md">
+            <h1>Hello World!</h1>
+            <h3>My name is Markie Sprout. It's a pleasure to meet you!</h3>
+    
+        <!--<table class="">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Social Media Site</th>
+                    <th scope="col">Account</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Twitter</td>
+                    <td>@mark_the_cookie_monster</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Instagram</td>
+                    <td>@the_coding_bear</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>TikTok</td>
+                    <td>@i_can_bearly_wake_up_in_the_morning</td>
+                </tr>
+            </tbody>
+        </table> -->
+        </div>
+
+        <div id="content" class="container-md">
+              <div class="centered">
+                <h4 style="color:red;text-decoration:underline;">2/5/21 Tasks:</h4>
+              </div>
+              <h4 class="card-title">1. Click the "Current Minute" button to display the current minute:</h4>
+              <div class="centered">
+                <button type = "button" class = "btn btn-warning" onclick="currentMinute()">Current Minute</button>
+              </div>
+              <br>
+              <h4 id="minute" class="card-title">Current Minute: </h4>
+              <br>
+              <h4 id = "programCard" class="card-title">2. Click the "Disappear" button to make the text below disappear:</h4>
+              <div class="centered">
+                <button type = "button" class = "btn btn-warning" onclick="disappear()">Disappear</button>
+              </div>
+              <br>
+              <div class="centered">
+                <h4 id="disappear" class="card-title">Coronavirus</h4>
+              </div>
+
+        </div>
         
-        Hello World!</h1>
-    <h3>My name is Markie Sprout. It's a pleasure to meet you!</h3>
+        <div id="content" class="container-md">
+            <img src="images/Markie.jpeg" class = "responsive-image" width="300" height="450"> 
+        </div>
 
-    <img src="images/Markie.jpeg" width="250" height="325">
-
-    <h3>Follow me on social media!</h3>
-
-    <table class="">
-        <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Social Media Site</th>
-                <th scope="col">Account</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Twitter</td>
-                <td>@mark_the_cookie_monster</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Instagram</td>
-                <td>@the_coding_bear</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>TikTok</td>
-                <td>@i_can_bearly_wake_up_in_the_morning</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <div class="container mt-5">
-        <div id="buttonGroup" class="h3">Sample JS</div>
-        <button type = "button" class = "btn btn-primary" onclick="howdy('miller')">Greeting</button>
-        <button type = "button" class = "btn btn-primary" onclick="evalNumber()">EvalNumber</button>
-        <button type = "button" class = "btn btn-primary" onclick="conditional()">Conditional</button>
-        <button type = "button" class = "btn btn-warning" onclick="changeTitle()">Change Title</button>
-        <button type = "button" class = "btn btn-warning" onclick="changeTitle2()">Change Title2</button>
-        <button type = "button" class = "btn btn-warning" onclick="disappear()">Disappear</button>
-      </div>
-
-      <div class = "card-body">
-        <h5 id = "programCard" class="card-title">Digital Studies</h5>
-        <h6 id = "programCard2">Current Minute: </h6>
-        <p class = "card-text">Hi Hi Hi</p>
-      </div>
-
-      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1krONAckQepdGcoymTFKmn4bWNLlJcj6p" width="640" height="480"></iframe>
-              
-      <p id="first">> This is the first paragraph</p>
-      <p id="second">> This is the second paragraph</p>
-      <p id="third">> This is the third paragraph</p>
+    <div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
