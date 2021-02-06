@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/DigitalChalkboard.js"></script>
 
     <title>Markie Sprout's Website</title>
 
@@ -15,7 +16,7 @@
   <body>
     <ul class="nav nav-pills">
         <li class="nav-item">
-            <a href="index.html" class="nav-link">HOME</a>
+            <a href="index.html" class="nav-link">Home</a>
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Travel</a>
@@ -31,13 +32,29 @@
         <li class="nav-item">
             <a href="About.html" class="nav-link">About</a>
         </li>
+        <li class="nav-item">
+            <a href="DigitalChalkboard.html" class="nav-link">Digital Chalkboard Tasks</a>
+        </li>
     </ul>
+    
+    <div id = "container" class="container-md">
 
-    <h1>
+        <div id="content" class="container-md">
+            
+            <h4 class="card-title">Check out where my friends have traveled! If you click on the blue icons on the map, 
+                you'll see a picture of them in that location as well as a short description they wrote about their adventures!</h4>
+            <br>
+            <h4 class="card-title">Stay tuned for more updates!</h4>
+            
+       </div>
+
+    <div class="centered">
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1krONAckQepdGcoymTFKmn4bWNLlJcj6p" width="640" height="500"></iframe>
+    </div>
+
+    </div>
+
         
-        </h1>
-  
-    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1krONAckQepdGcoymTFKmn4bWNLlJcj6p" width="640" height="480"></iframe>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
