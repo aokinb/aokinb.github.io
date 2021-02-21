@@ -46,7 +46,7 @@ function listTexts(sourceXML) {
     for (i = 0; i < textList.length; i++) {
         
         // Create one row per text
-        var tr = document.getElementById('td');
+        var tr = document.createElement('tr');
         tr.setAttribute('id', 'td_name_'+i);
         tr.setAttribute('id', 'row_'+i);
         document.getElementById('ochreTableBody').appendChild(tr);
