@@ -30,17 +30,17 @@ function XMLrequest(link) {
 
 function listTexts(sourceXML) {
 
-    document.getElementById('projectTitle').innerText = sourceXML.getElementsbyTagName('metadata')[0].children[1].innerHTML;
-    document.getElementById('setTitle').innerText = sourceXML.getElementsbyTagName('set')[0].children[3].children[0].innerHTML;
-    document.getElementById('setDescription').innerText = sourceXML.getElementsbyTagName('set')[0].children[4].innerHTML;
+    document.getElementById('projectTitle').innerText = sourceXML.getElementsByTagName('metadata')[0].children[1].innerHTML;
+    document.getElementById('setTitle').innerText = sourceXML.getElementsByTagName('set')[0].children[3].children[0].innerHTML;
+    document.getElementById('setDescription').innerText = sourceXML.getElementsByTagName('set')[0].children[4].innerHTML;
     
     var licenseText = document.getElementById('license');
-    licenseText.innerText = sourceXML.getElementsbyTagName('availability')[0].children[0].innerHTML;
-    licenseText.setAttribute('href', sourceXML.getElementsbyTagName('availability')[0].children[0].attributes[0].nodeValue);
+    licenseText.innerText = sourceXML.getElementsByTagName('availability')[0].children[0].innerHTML;
+    licenseText.setAttribute('href', sourceXML.getElementsByTagName('availability')[0].children[0].attributes[0].nodeValue);
 
     // Select, parse, and display the data
     console.log(sourceXML);
-    var textList = sourceXML.getElementsbyTagName('text');
+    var textList = sourceXML.getElementsByTagName('text');
     console.log(textList);
 
     for (i = 0; i < textList.length; i++) {
