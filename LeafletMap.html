@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Map API</title>
+</head>
+
+<body onload="mapLoad()">
+
+    <div id="navbar">
+        <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a href="index.html" class="nav-link" style="font-family:'Georgia'">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="font-family:'Georgia'">Travel</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="MarkieMap.html" style="font-family:'Georgia'">Markie</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="MarkieFriendsMap.html" style="font-family:'Georgia'">Markie's Friends</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a href="Contact.html" class="nav-link" style="font-family:'Georgia'">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a href="DigitalChalkboard.html" class="nav-link" style="font-family:'Georgia'">Digital Chalkboard Tasks</a>
+        </li>
+        <li class="nav-item">
+          <a href="WikipediaAPI.html" class="nav-link" style="font-family:'Georgia'">Wikipedia API</a>
+        </li>
+        <li class="nav-item">
+            <a href="LeafletMap.html" class="nav-link active" style="font-family:'Georgia'">Map API</a>
+        </li>
+        <li class="nav-item">
+            <a href="OCHRE.html" class="nav-link" style="font-family:'Georgia'">OCHRE API</a>
+        </li>
+        </ul>
+    </div>
+
+<div class="container mt-3">
+  <h1>Map API Example</h1>
+  <div id="map"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+crossorigin="anonymous"></script>
+
+<script src="js/Map.js"></script>
+</body>
+
+</html>
