@@ -36,5 +36,24 @@ div.centered {
 	/* The width is the width of the web page */
   }
 
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: red;
+	color: white;
+	text-align: center;
+ }
 
+@media screen and (max-width: 576px) {
+    footer {
+        display: none;
+    }
+}
+
+* {
+	font-size: 100%;
+	font-family: Georgia;
+   }
 
