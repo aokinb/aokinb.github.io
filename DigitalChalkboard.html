@@ -16,53 +16,109 @@
   <body>
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html" style="font-family:'Georgia'">Home</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="Contact.html" style="font-family:'Georgia'">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="font-family:'Georgia';">Travel</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="MarkieMap.html" style="font-family:'Georgia';">Markie</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="MarkieFriendsMap.html" style="font-family:'Georgia';">Markie's Friends</a>
-                        </div>                    
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="font-family:'Georgia';">API Pages</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="LeafletMap.html" style="font-family:'Georgia';">Map API Task</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="WikipediaAPI.html" style="font-family:'Georgia';">Wikipedia API Task</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="OCHRE.html" style="font-family:'Georgia';">OCHRE API Task</a>
-                        </div>                    
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="DigitalChalkboard.html" style="font-family:'Georgia';">Digital Chalkboard Buttons</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+      <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+              aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="Contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Travel</a>
+                      <div class="dropdown-menu">
+                          <a class="dropdown-item" href="MarkieMap.html">Markie</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="MarkieFriendsMap.html">Markie's Friends</a>
+                      </div>                    
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">API Pages</a>
+                      <div class="dropdown-menu">
+                          <a class="dropdown-item" href="LeafletMap.html">Map API Task</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="WikipediaAPI.html">Wikipedia API Task</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="OCHRE.html">OCHRE API Task</a>
+                      </div>                    
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" href="DigitalChalkboard.html">Digital Chalkboard</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
     
-    <div id="header" class="container-md">
-        <div class="container">
-            <div id="buttonGroup" class="h3">Sample JS</div>
-            <button type = "button" class = "btn btn-primary" onclick="howdy('miller')">Greeting</button>
-            <button type = "button" class = "btn btn-primary" onclick="evalNumber()">EvalNumber</button>
-            <button type = "button" class = "btn btn-primary" onclick="conditional()">Conditional</button>
-            <button type = "button" class = "btn btn-warning" onclick="changeTitle()">Change Title</button>
-          </div> 
-        <h5 id = "programCard" class="card-title">Digital Studies</h5>
+
+  <div id="container" class="container">
+
+    <div id="content" class="container-sm">
+
+      <div class="centered">
+        <h4 style="color:red;text-decoration:underline;font-family:'Georgia'">Various Buttons</h4>
+      </div>
+
+      <br>
+        
+      <button type = "button" class = "btn btn-primary" onclick="howdy('Miller!')">Greeting</button>
+
+      <br>
+      <br>
+
+      <button type = "button" class = "btn btn-primary" onclick="evalNumber()">EvalNumber</button>
+
+      <br>
+      <br>
+
+      <button type = "button" class = "btn btn-primary" onclick="conditional()">Conditional</button>
+
+      <br>
+      <br>
+
+      <button type = "button" class = "btn btn-warning" onclick="changeTitle()">Change Title</button>
+
+      <br>
+      <br>
+  
+      <h5 id = "programCard" class="card-title">Digital Studies</h5>
+      
     </div>
+
+    <div id="content" class="container-sm">
+        <h1>Hello World!</h1>
+        <h3 style="font-family:'Georgia'">My name is Markie Sprout. I am a fun-loving bear who loves eating cookies and sleeping! It's a pleasure to meet you!</h3>
+    </div>
+
+    <div id="content" class="container-sm">
+          <div class="centered">
+            <h4 style="color:red;text-decoration:underline;font-family:'Georgia'">2/5/21 Tasks:</h4>
+          </div>
+          <h4 class="card-title" style="font-family:'Georgia'">1. Click the "Current Minute" button to display the current minute:</h4>
+          <div class="centered">
+            <button type = "button" class = "btn btn-warning" onclick="currentMinute()" style="font-family:'Georgia'">Current Minute</button>
+          </div>
+          <br>
+          <h4 id="minute" class="card-title" style="font-family:'Georgia'">Current Minute: </h4>
+          <br>
+          <h4 id = "programCard" class="card-title" style="font-family:'Georgia'">2. Click the "Disappear" button to make the text below disappear:</h4>
+          <div class="centered">
+            <button type = "button" class = "btn btn-warning" onclick="disappear()" style="font-family:'Georgia'">Disappear</button>
+          </div>
+          <br>
+          <div class="centered">
+            <h4 id="disappear" class="card-title" style="font-family:'Georgia'">Coronavirus</h4>
+          </div>
+    </div>
+    
+
+</div> 
 
 
     <!-- Optional JavaScript; choose one of the two! -->
