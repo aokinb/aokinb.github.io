@@ -62,7 +62,7 @@
     <div id="content" class="container-sm">
 
       <div class="centered">
-        <h4 style="color:red;text-decoration:underline;font-family:'Georgia'">Various Buttons</h4>
+        <h4 style="color:red;text-decoration:underline;">Various Buttons</h4>
       </div>
 
       <br>
@@ -88,27 +88,32 @@
       <br>
   
       <h5 id = "programCard" class="card-title">Digital Studies</h5>
+
+      <button type = "button" class = "btn btn-primary" onclick="parseArray(newArray)">Parse Array</button>
+
+      <p id = "sorted_array"></p>
+      <p id = "last_element"></p>
       
     </div>
 
     <div id="content" class="container-sm">
           <div class="centered">
-            <h4 style="color:red;text-decoration:underline;font-family:'Georgia'">2/5/21 Tasks:</h4>
+            <h4 style="color:red;text-decoration:underline;">2/5/21 Tasks:</h4>
           </div>
-          <h4 class="card-title" style="font-family:'Georgia'">1. Click the "Current Minute" button to display the current minute:</h4>
+          <h4 class="card-title">1. Click the "Current Minute" button to display the current minute:</h4>
           <div class="centered">
-            <button type = "button" class = "btn btn-warning" onclick="currentMinute()" style="font-family:'Georgia'">Current Minute</button>
-          </div>
-          <br>
-          <h4 id="minute" class="card-title" style="font-family:'Georgia'">Current Minute: </h4>
-          <br>
-          <h4 id = "programCard" class="card-title" style="font-family:'Georgia'">2. Click the "Disappear" button to make the text below disappear:</h4>
-          <div class="centered">
-            <button type = "button" class = "btn btn-warning" onclick="disappear()" style="font-family:'Georgia'">Disappear</button>
+            <button type = "button" class = "btn btn-warning" onclick="currentMinute()">Current Minute</button>
           </div>
           <br>
+          <h4 id="minute" class="card-title">Current Minute: </h4>
+          <br>
+          <h4 id = "programCard" class="card-title">2. Click the "Disappear" button to make the text below disappear:</h4>
           <div class="centered">
-            <h4 id="disappear" class="card-title" style="font-family:'Georgia'">Coronavirus</h4>
+            <button type = "button" class = "btn btn-warning" onclick="disappear()">Disappear</button>
+          </div>
+          <br>
+          <div class="centered">
+            <h4 id="disappear" class="card-title">Coronavirus</h4>
           </div>
     </div>
 
