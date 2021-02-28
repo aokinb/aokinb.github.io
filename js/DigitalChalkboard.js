@@ -114,3 +114,20 @@ connect.send();
 
 }
 
+function parseArray(array) {
+    var newFruit = prompt("enter a fruit"); //prompt asks for input
+    array.push(newFruit.toLowerCase()); //.push method adds a value to an array
+    var x = array.sort(); //.sort method sorts values in an array
+    var y = x.length; //.length method accesses the length of an array
+    console.log(x[y-1]); //log the last item in the array
+    console.log(array); //log the entire array
+    
+    let selectedArray = document.getElementById("sorted_array");
+    selectedArray.innerText = array;
+
+    let selectedElementTwo = document.getElementById("last_element");
+    selectedElementTwo.innerText = array[y-1];
+
+  }
+
+var newArray = ["papaya", "apple", "orange", "banana"];
