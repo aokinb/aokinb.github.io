@@ -32,30 +32,47 @@ a:hover
 	opacity: 0.7;
 }
 
-#page-container {
+/* Create a sticky footer with the three blocks below. */
+
+#page-container 
+{
 	position: relative;
 	min-height: 90vh;
-  }
+}
   
-  #content-wrap {
-	padding-bottom: 1rem;    /* Footer height */
-  }
+#content-wrap 
+{
+	padding-bottom: 1rem;    
+}
   
 .footer 
 {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 1rem;            /* Footer height */
+	height: 1rem;            
 	border-top-width: 5px;
     border-top-style: solid;
     border-top-color: rgb(2,40,81);
 }
 
+/* Center the statement with link to CV. */
 #CVnote
 {
 	text-align: center;
 	padding-top: 20px;
 }
 
-  
+/* Make sure the "year" column does not change width. */
+#year
+{
+	width: 10px;
+}
+
+/* Add borders around table rows. */
+td, th
+{
+	padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
