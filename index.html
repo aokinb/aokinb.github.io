@@ -10,41 +10,66 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link rel="shortcut icon" href="image/harvard_favicon.jpg">
+
     <title>Nicholas B. Aoki</title>
 
   </head>
 
   <body>
 
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background:rgb(2,40,81)">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html" style="color:yellow">Nicholas B. Aoki</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border-color:yellow">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="cv.html">CV</a>
-              </li>
-            </ul>
+    <div id ="page-container">
+
+      <div id="content-wrap">
+
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background:rgb(2,40,81)">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border-color:yellow">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html" style="color:yellow">Nicholas B. Aoki</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="cv.html">CV</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Introduction -->
+        <div class="row">
+          <!-- Headshot -->
+          <div class="col-xl-4">
+              <img src="images/headshot.jpg" class="responsive">
+          </div>
+          <!-- Where I will eventually put a brief introduction about myself. -->
+          <div class="col-xl-8">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
           </div>
         </div>
-    </nav>
 
-    <div class="row">
-        <!-- Headshot -->
-        <div class="col-md-4">
-            <img src="images/IMG_4966.jpg" class="responsive">
-        </div>
-        <!-- Where I will eventually put a brief introduction about myself. -->
-        <div class="col-md-8">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
-        </div>
+      </div>
+
+      <!-- Footer -->
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <ul>
+          <li id="social">
+            <a href="https://www.linkedin.com/in/nicholasaoki/" target="_blank" id="icon"><img src="images/LI-In-Bug.png" height="70" width="80"></a>
+          </li>
+          <li id="social">
+            <a href="https://github.com/aokinb" target="_blank" id="icon"><img src="images/github.png" height="100" width="100"></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
     </div>
 
     <!-- Bootstrap Bundle with Popper -->
