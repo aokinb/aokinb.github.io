@@ -1,19 +1,8 @@
 /* Add padding to columns. */
-.col-xl-4 
+#column
 {
-    padding-top: 40px;
-	padding-bottom: 40px;
-	padding-left: 40px;
-	padding-right: 40px;
-}
-
-/* Add padding to columns. */
-.col-xl-8
-{
-    padding-top: 40px;
-	padding-bottom: 40px;
-	padding-left: 40px;
-	padding-right: 40px;
+    padding:30px;
+	padding-top:20px;
 }
 
 /* Place everything in containers in the center. */
@@ -61,6 +50,12 @@ a:hover
 	border-top-width: 5px;
     border-top-style: solid;
     border-top-color: rgb(2,40,81);
+}
+
+#CVnote
+{
+	text-align: center;
+	padding-top: 20px;
 }
 
   
