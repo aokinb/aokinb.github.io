@@ -62,6 +62,15 @@ a:hover
 	padding-top: 20px;
 }
 
+#TeachingNote
+{
+	text-align: center;
+	padding-top: 20px;
+	border-bottom-width: 5px;
+    border-bottom-style: solid;
+	border-bottom-color: rgb(2,40,81);
+}
+
 /* Make sure the "year" column does not change width. */
 #year
 {
