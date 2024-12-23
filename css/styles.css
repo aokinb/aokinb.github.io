@@ -62,7 +62,16 @@ a:hover
 	padding-top: 20px;
 }
 
-#TeachingNote
+#MaterialsNote
+{
+	text-align: center;
+	padding-top: 20px;
+	border-bottom-width: 5px;
+    border-bottom-style: solid;
+	border-bottom-color: rgb(2,40,81);
+}
+
+#Ratings
 {
 	text-align: center;
 	padding-top: 20px;
